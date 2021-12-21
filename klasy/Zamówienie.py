@@ -1,8 +1,9 @@
 class Zamówienie():
-    def __init__(self, id_zamowienia: int, dane_zamawiajacego: str, nieruchomosci: list):
+    def __init__(self, id_zamowienia: int, dane_zamawiajacego: str, dane_developera: str, nieruchomosci: list):
         self._id_zamowienia = id_zamowienia
         self._dane_zamawiajacego = dane_zamawiajacego
         self._nieruchomosci = nieruchomosci
+        self._dane_developera = dane_developera
 
     @property
     def id_zamowienia(self):
@@ -11,6 +12,10 @@ class Zamówienie():
     @property
     def dane_zamawiajacego(self):
         return self._dane_zamawiajacego
+
+    @property
+    def dane_developera(self):
+        return self._dane_developera
 
     @property
     def nieruchomosci(self):
@@ -22,6 +27,7 @@ class Zamówienie():
 
     def __str__(self):
         return f"Id zamówienia: {self._id_zamowienia}" \
+               f"Dane developera: {self._dane_developera}" \
                f"Dane zamawiającego: {self._dane_zamawiajacego}" \
                f"Nieruchomości: {''.join(str(nieruchomosc) for nieruchomosc in self._nieruchomosci)}"
 

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0040ebb-b01f-4825-945b-4c24c75eb2a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/klasy/Budynek.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/klasy/Developer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/klasy/Dom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/klasy/Mieszkanie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/klasy/Zamówienie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klasy/Zamówienie.py" beforeDir="false" afterPath="$PROJECT_DIR$/klasy/Zamówienie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
